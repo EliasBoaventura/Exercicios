@@ -1,4 +1,4 @@
-print('Meu animal favorito é uum cachorro')
+print('Meu animal favorito é um cachorro')
 print('''
 
 ╥━━━━━━━━╭━━╮━━┳
