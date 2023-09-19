@@ -1,4 +1,8 @@
-numero = 12
+teste = 1
 
 
-print(f'{numero:.2f}')
+if(teste == 1):
+    print('ok')
+    teste+=1
+if(teste == 2):
+    print('cheguei')
