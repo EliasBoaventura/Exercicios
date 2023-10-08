@@ -43,7 +43,7 @@ def ano_e_bissexto(data):
 
 def e_uma_data_valida(data):
     if(ano_e_valido(data) and mes_e_valido(data) and dia_e_valido(data)):
-        if((mes(data)==4 or mes(data)==6 or mes(data)== 9 or mes(data)==11) and dia(data) > 30):
+        if(mes((data)==4 or mes(data)==6 or mes(data)== 9 or mes(data)==11) and dia(data) > 30):
             return False
         elif mes(data) == 2 and (dia(data) > 29 or (dia(data) > 28) and not ano_e_bissexto(data)):
             return False
