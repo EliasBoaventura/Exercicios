@@ -19,7 +19,7 @@ def main():
 
     mostra_numeros_primos(numero_um, numero_dois)
 
-    raise ValueError(numero_um, numero_dois)
+    
 
 if __name__ == '__main__':
     main()
