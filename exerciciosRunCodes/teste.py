@@ -1,4 +1,4 @@
+from random import *
+starColours = ["#058396", "#0275a6", "#827e01"]
 
-for i in range(1, 4):
-    print( i)
-
+print(choice(starColours))
