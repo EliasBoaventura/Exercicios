@@ -1,4 +1,8 @@
-from random import *
-starColours = ["#058396", "#0275a6", "#827e01"]
+lista = ['a','c','d']
 
-print(choice(starColours))
+memoria = lista[1]
+if isinstance(memoria, str):
+    if memoria.isnumeric:
+        lista_ordenada = sorted(lista, key=float)
+    else:
+        lista_ordenada = sorted(lista)

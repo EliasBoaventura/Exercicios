@@ -17,10 +17,10 @@ def desenha_algo():
     
     local_aleatorio_tela()
     begin_fill()
-    tamanho = randrange(2, 10)
-    for i in range(4):
+    tamanho = randrange(17, 25)
+    for i in range(7):
         forward(tamanho)
-        left(144)
+        left(75)
     end_fill()
     
 def main():
